@@ -1,0 +1,14 @@
+/target/
+bin/
+.classpath
+.project
+.settings/
+Data/
+test.jpg
+test_new.jpg
+PRO_Crapauduc_viewer.iml
+Sunflower_from_Silesia.JPG
+images/
+lib/
+nbactions.xml
+.idea/
