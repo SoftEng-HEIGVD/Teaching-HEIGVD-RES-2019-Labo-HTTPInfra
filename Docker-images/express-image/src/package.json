@@ -1,0 +1,14 @@
+{
+  "name": "students",
+  "version": "0.1.0",
+  "description": "creation d'un serveur repondant a des requete get",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexandre Gabrielli",
+  "license": "ISC",
+  "dependencies": {
+    "chance": "^1.0.18"
+  }
+}
