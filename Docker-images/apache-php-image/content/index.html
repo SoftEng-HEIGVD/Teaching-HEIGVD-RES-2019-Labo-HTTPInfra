@@ -66,11 +66,12 @@
       <div class="row">
         <div class="col-lg-8 mx-auto">
           <h2 class="text-white mb-4">Built with Bootstrap 4</h2>
-          <p class="text-white-50">Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
-            <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
+          <p class="text-white-50">Pour faire cette page nous avons utilisé bootstrap, la page du thème "vanilla" peu être trouver à l'adresse
+            <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. ce thème est open source (on peu en faire un usage personnel et commercial.</p>
+			Regarder dans Projects pour voir les détails d'implémentation.
         </div>
       </div>
-      <img src="img/ipad.png" class="img-fluid" alt="">
+      <img src="img/computerdark.jpg" class="img-fluid" alt="">
     </div>
   </section>
 
@@ -81,12 +82,17 @@
       <!-- Featured Project Row -->
       <div class="row align-items-center no-gutters mb-4 mb-lg-5">
         <div class="col-xl-8 col-lg-7">
-          <img class="img-fluid mb-3 mb-lg-0" src="img/bg-masthead.jpg" alt="">
+          <img class="img-fluid mb-3 mb-lg-0" src="img/Serveur.jpg" alt="">
         </div>
         <div class="col-xl-4 col-lg-5">
           <div class="featured-text text-center text-lg-left">
             <h4>Shoreline</h4>
-            <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+            <p class="text-black-50 mb-0">Premièrerment créer un dossier Docker-image puis un sous dossier apache-php-image dans un dossier content extraire le zip du thème choisi,
+			Après cella monter un docker php (le docker php contient déjà apache ce qui nous facilite énormément le travail. 
+			voici les deux lignes de code que doit contenir le Dockerfile<Br> FROM php:7.2-apache<Br>
+			COPY content/ /var/www/html/<Br>
+			Pour executer le dockerfile faite simplement docker build -t res/apache_php puis docker run -p 9090:80 res/apache_php.
+			</p>
           </div>
         </div>
       </div>
@@ -94,14 +100,14 @@
       <!-- Project One Row -->
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
         <div class="col-lg-6">
-          <img class="img-fluid" src="img/demo-image-01.jpg" alt="">
+          <img class="img-fluid" src="img/scool.jpg" alt="">
         </div>
         <div class="col-lg-6">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-left">
                 <h4 class="text-white">Misty</h4>
-                <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
+                <p class="mb-0 text-white-50">Cette section permet d'avoir un exemple d'une section avec image et texte.</p>
                 <hr class="d-none d-lg-block mb-0 ml-0">
               </div>
             </div>
@@ -145,13 +151,13 @@
         </div>
 
       <div class="social d-flex justify-content-center">
-        <a href="#" class="mx-2">
+        <a href="https://twitter.com/hashtag/gracehopper" class="mx-2">
           <i class="fab fa-twitter"></i>
         </a>
-        <a href="#" class="mx-2">
+        <a href="https://www.facebook.com/AlbertEinstein/" class="mx-2">
           <i class="fab fa-facebook-f"></i>
         </a>
-        <a href="#" class="mx-2">
+        <a href="https://github.com/AlexandreGabrielli" class="mx-2">
           <i class="fab fa-github"></i>
         </a>
       </div>
