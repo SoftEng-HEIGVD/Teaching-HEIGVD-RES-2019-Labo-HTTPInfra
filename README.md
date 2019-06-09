@@ -131,3 +131,11 @@ The third objective is to practice our usage of **Docker**. All the components o
 * You develop a web app (e.g. with express.js) that administrators can use to monitor and update your web infrastructure.
 * You find a way to control your Docker environment (list containers, start/stop containers, etc.) from the web app. For instance, you use the Dockerode npm module (or another Docker client library, in any of the supported languages).
 * You have documented your configuration and your validation procedure in your report.
+
+# ce que j'ai fait
+
+* trouver un théme et le dl <https://startbootstrap.com/themes/grayscale/>
+
+* faire le dockerfile
+
+* lancer le docker
