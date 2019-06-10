@@ -26,7 +26,7 @@ class User {
     let users = [];
 
     for (let i = 0; i < numberOfUsers; ++i) {
-      users.push(new user());
+      users.push(new User());
     }
 
     return users;
